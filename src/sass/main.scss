@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+@import './components/header/_module.scss';
+// @import './base/_module';
 @font-face {
   font-family: 'Northwell';
   src: url('../fonts/Northwell.eot');
@@ -11,27 +13,6 @@
   font-weight: normal;
   font-style: normal;
 }
-// @font-face {
-//   font-family: 'Northwell';
-//   src: url('fonts/Northwell.eot');
-//   src: local('☺'), url('fonts/Northwell.woff') format('woff'),
-//     url('fonts/Northwell.ttf') format('truetype'),
-//     url('fonts/Northwell.svg') format('svg');
-//   font-weight: 500;
-//   font-style: normal;
-// }
-
 body {
   background-color: $bgcolor;
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Northwell';
-  color: goldenrod;
-}
-.menu-logo {
-  border-radius: 100%;
-}
-.logo-title {
-  font-family: 'Northwell';
-  color: aqua;
-  border: 2px solid green;
 }

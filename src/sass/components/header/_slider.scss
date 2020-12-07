@@ -1,0 +1,13 @@
+.slide {
+  display: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &.is-active {
+    display: block;
+    // position: absolute;
+    // top: 100%;
+    // right: 100%;
+
+    // transform: translate(-100%, -100%);
+  }
+}
